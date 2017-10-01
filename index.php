@@ -79,8 +79,30 @@
 		<br />
 		<?php echo "Is {$integer} integer? " . is_numeric($integer); ?><br />
 		<?php echo "Is {$float} integer?" . is_numeric($float); ?><br />
-
+		<br/>
 		<!--End of numbers - floating points-->
 
+		<!--Start of arrays-->
+
+		<?php
+
+		$numbers = array(4,8,15,16,23,42);
+		echo $numbers[0];
+		?>
+
+		<?php $mixed = array(6, "fox", "dog", array("x", "y", "z")); ?>
+		<?php echo $mixed[2]; ?><br />
+		<?php // echo $mixed[3]; ?><br />
+		<?php  // echo $mixed ?><br />
+		<pre>
+		<?php echo print_r($mixed); ?>
+		</pre>
+		<br />
+		<?php echo $mixed[3][1]; ?><br />
+
+		<?php $mixed[2] = "cat"; ?>
+		<?php $mixed[4] = "mouse"; ?>
+		<?php $mixed[] = "horse"; ?>
+		<?php echo print_r($mixed); ?>
 	</body>
 </html>
