@@ -104,5 +104,6 @@
 		<?php $mixed[4] = "mouse"; ?>
 		<?php $mixed[] = "horse"; ?>
 		<?php echo print_r($mixed); ?>
+
 	</body>
 </html>
