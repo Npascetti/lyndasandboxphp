@@ -80,7 +80,7 @@
 		<?php echo "Is {$integer} integer? " . is_numeric($integer); ?><br />
 		<?php echo "Is {$float} integer?" . is_numeric($float); ?><br />
 
-
+		<!--End of numbers - floating points-->
 
 	</body>
 </html>
