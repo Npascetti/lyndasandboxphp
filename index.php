@@ -3,8 +3,18 @@
 <html lang="en">
 	<head>
 		<title>Lynda Sandbox Practice</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	</head>
 	<body>
+		<nav>
+			<ul>
+				<li><a href="index.php">Main/ String Functions & Integers</a></li>
+				<li><a href="assocarrays.php">Associated Arrays</a></li>
+				<li><a href="arrayfunctions.php">Array Functions</a></li>
+				<li><a href="booleans.php">Booleans</a></li>
+				<li><a href="null.php">Null</a></li>
+			</ul>
+		</nav><br />
 		<!--start of string functions section-->
 		<?php
 
@@ -74,11 +84,11 @@
 		<?php echo "Is {$integer} integer? " . is_int($integer); ?><br />
 		<?php echo "Is {$float} integer?" . is_int($float); ?><br />
 		<br />
-		<?php echo "Is {$integer} integer? " . is_float($integer); ?><br />
-		<?php echo "Is {$float} integer?" . is_float($float); ?><br />
+		<?php echo "Is {$integer} float? " . is_float($integer); ?><br />
+		<?php echo "Is {$float} float?" . is_float($float); ?><br />
 		<br />
-		<?php echo "Is {$integer} integer? " . is_numeric($integer); ?><br />
-		<?php echo "Is {$float} integer?" . is_numeric($float); ?><br />
+		<?php echo "Is {$integer} number? " . is_numeric($integer); ?><br />
+		<?php echo "Is {$float} number" . is_numeric($float); ?><br />
 		<br/>
 		<!--End of numbers - floating points-->
 

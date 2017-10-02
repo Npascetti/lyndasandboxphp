@@ -2,9 +2,18 @@
 <html>
 	<head>
 		<title>Array Functions</title>
-
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	</head>
 	<body>
+		<nav>
+			<ul>
+				<li><a href="index.php">Main/ String Functions & Integers</a></li>
+				<li><a href="assocarrays.php">Associated Arrays</a></li>
+				<li><a href="arrayfunctions.php">Array Functions</a></li>
+				<li><a href="booleans.php">Booleans</a></li>
+				<li><a href="null.php">Null</a></li>
+			</ul>
+		</nav>
 
 		<?php $numbers = array(8,23,15,42,16,4); ?>
 
